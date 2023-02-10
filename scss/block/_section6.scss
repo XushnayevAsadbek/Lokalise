@@ -1,0 +1,36 @@
+#section6 {
+    background: #C9E8F2;
+}
+
+.section6-box {
+    display: flex;
+    gap: 85px;
+    justify-content: space-between;
+    padding-bottom: 104px;
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #000000;
+        padding: 63px 0 0 75px;
+    }
+
+    &__text1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+        margin: 23px 0 7px 0;
+        padding-left: 75px;
+    }
+    &__icon{
+        padding-left: 75px;
+    }
+
+    &__img{
+        padding-top: 53px;
+    }
+}

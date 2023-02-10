@@ -1,0 +1,89 @@
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 95px;
+    border-bottom: 5px solid #f0f0f0;
+
+    &--card1 {
+        padding-top: 92px;
+
+
+        &__img {
+            margin: 28px 0 31px 0;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+            margin-bottom: 15px;
+            width: 290px;
+        }
+
+        &__text1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+        }
+    }
+
+    &--card2 {
+        padding-top: 97px;
+
+        &__list {
+            margin-bottom: 21px;
+        }
+
+        &__link {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 25px;
+            color: #000000;
+
+        }
+
+        &__link1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 15px;
+            color: #000000;
+        }
+    }
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+    &--box {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+
+    &__text1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+}

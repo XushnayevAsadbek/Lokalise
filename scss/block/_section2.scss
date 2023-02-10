@@ -1,0 +1,23 @@
+#section2 {
+    background: #FF9C7D;
+}
+
+.section2-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    padding-top: 108px;
+}
+
+.section2-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 93px;
+    gap: 100px;
+
+    
+}

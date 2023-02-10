@@ -1,0 +1,36 @@
+#section7 {
+    background: #DABC98;
+}
+
+.section7-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 67px;
+    padding-bottom: 87px;
+
+
+    &__img {
+        padding-top: 90px;
+        padding-left: 54px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        color: #000000;
+        padding-top: 117px;
+    }
+
+    &--card {
+        padding-top: 109px;
+
+        &__img1{
+            margin-bottom: 20px;
+        }
+        &__text{
+            margin-top: 15px;
+        }
+    }
+}
